@@ -1,0 +1,177 @@
+body {
+    background-color: white;
+}
+
+.akdesign {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #10A7AC;
+   
+}
+
+nav {
+    background-color: #10A7AC;
+    margin: 0 auto;
+}
+
+.main {
+   padding-top: 150px;
+}
+
+.twitter, .pinterest, .instagram {
+    width: 3%;
+}
+
+@media (min-width: 992px) {
+    nav {
+    position: fixed;
+    z-index: 3;
+    margin: 0 auto;
+
+    left: 150px;
+}
+
+.homeimg li {
+    float: left;
+    width: 25%;
+    position: relative;
+    top: 200px;
+   
+}
+}
+.gdimg {
+    position: relative;
+    top: 80px;
+}
+
+.akseal {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.icon-bar {
+    background-color: #10A7AC;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.serif {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.sanserif {
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+
+.tools {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contact {
+    font-family: 'Roboto Slab', serif;
+    color: #10A7AC;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.emailserif {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    float: right;
+}
+
+.manifesto {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.mywords {
+    margin-top: 30px;
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+.type {
+    margin-top: 130px;
+    margin-left: 75px;
+}
+
+
+.email {
+    font-family: 'Questrial', sans-serif;
+    color: #FFFFF0;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 230px;
+}
+
+.email a {
+    color: #00CDCD; 
+}
+
+.phone {
+    color: #FF69B4; 
+     text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 172px;
+}
+
+
+.form {
+    margin-top: 150px;
+    margin-left: 340px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+.emailbox {
+      margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@ body {
 
 .akdesign {
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+    font-size: 12px;
     color: #10A7AC; 
 }
 
@@ -13,23 +13,42 @@ nav {
 
 }
 
+.carousel-control.left, .carousel-control.right {
+    background: none !important;
+    color: gray;
+}
+
+.akseal {
+    margin-top: 50px;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
 .tools {
     list-style: none;
     color: white;
     font-family: 'Roboto Slab', serif;
-    font-weight: lighter;
-    font-size: 8px;
+    font-size: 20px;
     text-decoration: none;
 }
 
-.main {
-   padding-top: 50px;
+.tools:hover {
+    color: white;
 }
 
+.main {
+   padding-top: 30px;
+}
 
+nav li {
+    list-style: none;
+    
+}
 
 .gap {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -37,64 +56,9 @@ nav {
     width: 10%;
 }
 
-@media (max-width: 992px) {
-    nav {
-    position: relative;
-  
-
+aside img {
+    margin-bottom: 30px;
 }
-
-nav ul {
-    list-style: none;
-    float: right;
-    width: 100%;
- 
-}
-
-.homeimg li {
-    float: left;
-    width: 25%;
-    position: relative;
-    top: 200px;
-
-   
-}
-
-.tools {
-    list-style: none;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    font-weight: lighter;
-    font-size: 30px;
-    text-decoration: none;
-    width: 100%;
-
-   
-}
-
-}
-
-
-@media (min-width: 768px) {
-    .tools {
-    list-style: none;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    font-weight: lighter;
-    font-size: 16px;
-    text-decoration: none;
-    width: 100%;
-
-}
-
-nav ul {
-    list-style: none;
-    float: right;
-  
-}
-}
-
-
 
 
 .gdimg {
@@ -140,16 +104,12 @@ nav ul {
     font-weight: lighter;
     font-size: 30px;
     text-align: center;
+
 }
 
 
 
-
-
-
-
 .manifesto {
-    margin-top: 30px;
     font-family: 'Roboto Slab', serif;
     font-weight: lighter;
     text-align: center;
@@ -187,16 +147,11 @@ nav ul {
 
 
 .form {
-    vertical-align: center;
     font-family: 'Questrial', sans-serif;
     font-size: 14px;
     color: black;
 }
 
-.active {
-    background-color: white;
-    color: #10A7AC;
-}
 
 
 .emailbox {
@@ -204,12 +159,72 @@ nav ul {
 }
 
 
+@media (min-width: 768px) {
+    .tools {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none !important;
+}
+}
+
+@media (min-width: 992px) {
+    nav {
+    position: relative;
+
+}
+
+.tools:hover {
+    color: white;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    padding-top: 7px;
+ 
+}
 
 
 
+.homeimg li {
+    float: left;
+    width: 25%;
+    position: relative;
+    top: 200px;
+}
 
+.tools {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-decoration: none;
+}
 
-
-
-
+.carousel-control.left, .carousel-control.right {
+    background: none !important;
+}
+}
 
